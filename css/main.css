@@ -56,6 +56,21 @@ p{
     line-height: 140%;
 }
 
+li{
+    font-family: 'Basier Circle';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+}
+
+ul.space{
+    font-family: 'Basier Circle';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+}
 
 p .deroul{
     font-family: 'Basier Circle';

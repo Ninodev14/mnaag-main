@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'LT Museum';
     src:
-         url('LTMuseum-Reg.ttf') format('truetype');
+         url('../font/musuem/LTMuseum-Reg.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 

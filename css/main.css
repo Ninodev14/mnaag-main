@@ -60,6 +60,13 @@ p .deroul{
     font-size: 24px;
     line-height: 140%;
 }
+p .deroula{
+    font-family: 'Basier Circle';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+}
 
 p .info_flooter{
     font-family: 'Basier Circle';
@@ -140,9 +147,9 @@ header .navbar li a:hover {
 header .navbar ul li:hover ul {
     display: block;
 }
-
-header .navbar li a:hover menu{
-    background-color: aquamarine;
+.deroula:hover .titre{
+    background-color: #00243D;
+    color: white;
 }
 
 
@@ -150,16 +157,13 @@ header .navbar li a:hover menu{
 
 
 
-header body {
-    background-color: rgb(75, 55, 55);
-}
-
 
 header #seaching {
     width: 182px;
     height: 27px;
 }
 
+header .searcha{}
 header .logo {
     height: 55px;
     width: 88px;
@@ -171,9 +175,13 @@ header .logo img {
 }
 
 header .menu {
-    height: 16px;
-    width: 28px;
+   height: 57px;
+   width: 55px;
 
+
+}
+header .menu img{
+height: 100%;
 }
 
 header .p {
@@ -186,8 +194,9 @@ header .searcha:hover.p {
 
 
 header .searcha {
-    width: 25px;
-    padding-top: 15px ;
+    height: 57px;
+    width: 55px;
+    padding-top: 2px;
     padding-left: 10px;
     padding-right: 10px;
     /* opacity: 0; */
@@ -195,7 +204,7 @@ header .searcha {
 
 header .searcha img {
     width: 100%;
-    height: auto;
+    height:95%;
 }
 
 /*interieur barre*/

@@ -157,10 +157,14 @@ header .navbar li ul :hover {
     background: linear-gradient(5deg, #E0F3FF 0 50%, rgba(255, 255, 255, 0) 50% 100%);
 }
 
+
+
+
 .cover .arrow {
     display: flex;
-    margin-top: -15vw;
+    margin-top: 10vw;
     margin-left: 3vh;
+
 }
 
 .agenda {

@@ -115,7 +115,9 @@ header .navbar li ul :hover {
     background-image: url("image/musee_guimet.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
     opacity: 1;
 }
 
@@ -136,8 +138,11 @@ header .navbar li ul :hover {
 
 
 .cover .triangle{
-    margin-top: -15vw;
     height: 30vw;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background: linear-gradient(5deg, #E0F3FF 0 50%, rgba(255, 255, 255, 0) 50% 100%);
 }
 

@@ -145,6 +145,11 @@ header .navbar li a:hover {
     color: white;
     text-decoration: none;
 }
+header .navbar .deroul:hover .menu{
+    background-color: #00243d;
+    color: white;
+    text-decoration: none;
+}
 
 header .navbar ul li:hover ul {
     display: block;
@@ -155,7 +160,7 @@ header .navbar ul li:hover ul {
     color: white;
 }
 
-header .navbar ul li:hover .titre {
+header .navbar ul li:hover .titre .menu {
     background-color: #00243d;
     color: white;
     text-decoration: none;

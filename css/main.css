@@ -393,6 +393,27 @@ display: block;
     padding-left: 1.5%;
 }
 
+@media (max-width: 1024px) {
+    .agenda .info-square {
+        position: sticky;
+        margin-bottom: 10px;
+    }  
+    .agenda .square {
+        display: block;
+    } 
+    .agenda .rectangle {
+        display: block;
+    }
+    .agenda .bloc-square {
+        display: block;
+    }
+    .agenda .bloc-rect {
+        display: block;
+    }
+    .agenda .info-square h3 {
+        font-size: 18pt;
+    }
+}
 
 .collec {
     background: linear-gradient(353deg, rgba(255, 255, 255, 0) 0 50%, #E0F3FF 50% 100%);

@@ -2,6 +2,81 @@ html {
     scroll-behavior: smooth;
 }
 
+/*typo*/
+h1{
+    font-family: 'LT Museum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 140%;
+}
+
+h2{
+    font-family: 'LT Museum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 140%;
+}
+
+h3{
+    font-family: 'LT Museum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 140%;
+}
+
+p{
+    font-family: 'Basier Circle';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+
+li{
+    font-family: 'Basier Circle';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+}
+
+
+ul.space{
+    font-family: 'Basier Circle';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+}
+
+p .deroul{
+    font-family: 'Basier Circle';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+}
+
+p .info_flooter{
+    font-family: 'Basier Circle';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+}
+p .derouler{
+    font-family: 'Basier Circle';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+}
+
+/*menu barre*/
 
 header {
     height: 57px;
@@ -22,20 +97,40 @@ header {
 }
 
 
-/*menu barre*/
 
 header .navbar ul {
     display: flex;
+    height: 100%;
+}
+
+header .deroul{
+
+padding-left: 16px;
+padding-bottom: 0;
+padding-right: 16px;
+padding-top: 10px;
+}
+
+.navbar ul li{
+    height: 100%;
+}
+
+.navbar .derouler img {
+    height: 100%;
+    padding: 0;
 }
 
 header .navbar li a {
-    padding: 19px 16px;
     display: block;
     color: #000;
     background-color: white;
     text-decoration: none;
+    height: 100%;
 }
 
+header .navbar li a p{
+    height: 100%;
+}
 header .navbar li a:hover {
     background-color: #00243d;
     color: white;
@@ -46,14 +141,14 @@ header .navbar ul li:hover ul {
     display: block;
 }
 
+header .navbar li a:hover menu{
+    background-color: aquamarine;
+}
+
+
 /*fin menu barre*/
 
-header .navbar ul li:hover .titre {
-    background-color: #00243d;
-    color: white;
-    text-decoration: none;
 
-}
 
 header body {
     background-color: rgb(75, 55, 55);
@@ -130,6 +225,7 @@ header .navbar li ul :hover {
     min-height: calc(100vh - 57px);
     position: relative;
 }
+
 
 .cover h1 {
     display: flex;

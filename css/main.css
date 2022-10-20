@@ -22,6 +22,52 @@ header {
 }
 
 
+
+/*typo*/
+h1{
+    font-family: 'LT Museum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 140%;
+}
+
+h2{
+    font-family: 'LT Museum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 140%;
+}
+
+h3{
+    font-family: 'LT Museum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 140%;
+}
+
+p{
+    font-family: 'Basier Circle';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+
+p .deroul{
+    font-family: 'Basier Circle';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+}
+
+
+
+
 /*menu barre*/
 
 header .navbar ul {
@@ -130,6 +176,7 @@ header .navbar li ul :hover {
     min-height: calc(100vh - 57px);
     position: relative;
 }
+
 
 .cover h1 {
     display: flex;

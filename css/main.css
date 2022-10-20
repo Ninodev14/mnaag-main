@@ -448,9 +448,14 @@ header .navbar li ul :hover {
 
 .pause {
 
-    border: 5px solid black;
-    margin-top: 20vw;
-    display: flex;
+    border: 2px solid black;
+    margin-top: 200px;
+    height: 400px;
+    background-image: 
+        url("/image/pause/imageintmusée.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .event {
@@ -599,5 +604,27 @@ footer .box-bas {
     margin-right: 5%;
     margin-left: 5%;
     padding-bottom: 2%;
+
+}
+
+@media (max-width:1024px){
+
+    footer .box-menue{
+        display: block;
+    }
+
+    footer .barre{
+        display: none;
+    }
+
+    footer .reseau{
+        width: 55px;
+    }
+
+    footer .box-reseau{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
 
 }

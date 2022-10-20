@@ -1,4 +1,3 @@
-
 html {
     scroll-behavior: smooth;
 }
@@ -78,16 +77,28 @@ header .logo img {
 
 header .menu {
     height: 16px;
-    width: 25px;
+    width: 28px;
 
 }
 
-header .b{
-    width: 20px;
+header .p {
+    display: none;
+}
+
+header .searcha:hover.p {
+    display: block;
+}
+
+
+header .searcha {
+    width: 25px;
+    padding-top: 15px ;
+    padding-left: 10px;
+    padding-right: 10px;
     /* opacity: 0; */
 }
 
-header .b img {
+header .searcha img {
     width: 100%;
     height: auto;
 }
@@ -137,7 +148,7 @@ header .navbar li ul :hover {
 
 
 
-.cover .triangle{
+.cover .triangle {
     height: 30vw;
     position: absolute;
     left: 0;
@@ -146,7 +157,7 @@ header .navbar li ul :hover {
     background: linear-gradient(5deg, #E0F3FF 0 50%, rgba(255, 255, 255, 0) 50% 100%);
 }
 
-.cover .arrow{
+.cover .arrow {
     display: flex;
     margin-top: -15vw;
     margin-left: 3vh;
@@ -222,7 +233,8 @@ header .navbar li ul :hover {
     color: white;
 }
 
-.agenda .info-square h3,.agenda .info-square p {
+.agenda .info-square h3,
+.agenda .info-square p {
     padding-top: 1.5%;
     padding-left: 1.5%;
 }
@@ -235,13 +247,14 @@ header .navbar li ul :hover {
     color: white;
 }
 
-.agenda .info-rect h3,.agenda .info-square p {
+.agenda .info-rect h3,
+.agenda .info-square p {
     padding-top: 1.5%;
     padding-left: 1.5%;
 }
 
 
-.collec{
+.collec {
     background: linear-gradient(353deg, rgba(255, 255, 255, 0) 0 50%, #E0F3FF 50% 100%);
     padding-top: 9.7%;
 
@@ -325,7 +338,7 @@ header .navbar li ul :hover {
     height: 350px;
 }
 
-.collec .splide__slide img{
+.collec .splide__slide img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -342,14 +355,14 @@ header .navbar li ul :hover {
 
     border: 5px solid black;
     margin-top: 20vw;
-    display: flex;    
+    display: flex;
 }
 
 .event {
     background-color: #E0F3FF;
 }
 
-.event .triangle{
+.event .triangle {
     height: 30vw;
     position: relative;
     left: 0;
@@ -423,7 +436,8 @@ header .navbar li ul :hover {
     color: white;
 }
 
-.event .info-square h3, .event .info-square p {
+.event .info-square h3,
+.event .info-square p {
     padding-top: 1.5%;
     padding-left: 1.5%;
 }
@@ -436,57 +450,60 @@ header .navbar li ul :hover {
     color: white;
 }
 
-.event .info-rect h3, .event .info-rect p {
+.event .info-rect h3,
+.event .info-rect p {
     padding-top: 1%;
     padding-left: 1%;
 }
 
-footer{
+footer {
     margin-top: 10%;
     background-color: #00243D;
     color: white;
 }
 
-footer a{
+footer a {
     color: white;
 }
-footer .titre{
+
+footer .titre {
     padding-bottom: 10%;
 }
 
-footer .logo{
+footer .logo {
     padding-left: 4.2%;
 }
 
-footer .space{
+footer .space {
     padding-bottom: 10%;
 }
-footer .box-menue{
+
+footer .box-menue {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     padding-left: 4.2%;
 }
 
-footer .expo{
+footer .expo {
     padding-bottom: 10%;
 }
 
-footer .box-reseau{
+footer .box-reseau {
     display: flex;
     flex-direction: column;
 }
 
-footer .reseau{
+footer .reseau {
     width: 40%;
     height: 40%;
 }
 
-footer .box-bas{
+footer .box-bas {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     margin-right: 5%;
     margin-left: 5%;
-    padding-bottom:2%;
-    
+    padding-bottom: 2%;
+
 }

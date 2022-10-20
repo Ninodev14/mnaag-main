@@ -279,12 +279,14 @@ header .navbar li ul :hover {
 
 .collec .splide__arrow--next {
     margin-right: 8%;
-    transform: scale(1.25)
+    transform: scale(1.25);
+    transition: transform 0.5s;
 }
 
 .collec .splide__arrow--prev {
     margin-right: 2%;
-    transform: scale(1.25)
+    transform: scale(1.25);
+    transition: transform 0.5s;
 }
 
 .collec .splide__arrows {
@@ -295,7 +297,6 @@ header .navbar li ul :hover {
 
 
 .collec .splide__arrow--prev:hover {
-
     transform: scale(1.55);
     transition: transform 0.5s;
 }
@@ -318,11 +319,6 @@ header .navbar li ul :hover {
     overflow: hidden;
 }
 
-.collec .splide__slide:hover {
-
-    background-size: 120%;
-    transition: background-size 0.5s;
-}
 
 .collec .splide__slide {
     width: 350px;

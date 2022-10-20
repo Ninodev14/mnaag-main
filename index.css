@@ -155,6 +155,7 @@ header .navbar li ul :hover {
     right: 0;
     bottom: 0;
     background: linear-gradient(5deg, #E0F3FF 0 50%, rgba(255, 255, 255, 0) 50% 100%);
+    z-index: 9;
 }
 
 
@@ -162,9 +163,10 @@ header .navbar li ul :hover {
 
 .cover .arrow {
     display: flex;
-    margin-top: 10vw;
+    position: absolute;
+    margin-top: 13vw;
     margin-left: 3vh;
-
+    z-index: 10;
 }
 
 .agenda {
@@ -500,7 +502,7 @@ footer .box-reseau {
 
 footer .reseau {
     width: 40%;
-    height: 40%;
+    height: auto;
 }
 
 footer .box-bas {

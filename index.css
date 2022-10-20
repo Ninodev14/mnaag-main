@@ -342,14 +342,20 @@ header .navbar li ul :hover {
 
     border: 5px solid black;
     margin-top: 20vw;
-    display: flex;
-    margin-bottom: 20vw;
-    
+    display: flex;    
 }
 
 .event {
-    padding-top: 20vw;
     background-color: #E0F3FF;
+}
+
+.event .triangle{
+    height: 30vw;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(5deg, #E0F3FF 0 50%, rgb(255, 255, 255) 50% 100%);
 }
 
 .event h2 {

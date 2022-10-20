@@ -3,7 +3,7 @@ html {
 }
 
 /*typo*/
-h1{
+h1 {
     font-family: 'LT Museum';
     font-style: normal;
     font-weight: 400;
@@ -11,7 +11,7 @@ h1{
     line-height: 140%;
 }
 
-h2{
+h2 {
     font-family: 'LT Museum';
     font-style: normal;
     font-weight: 400;
@@ -19,7 +19,7 @@ h2{
     line-height: 140%;
 }
 
-h3{
+h3 {
     font-family: 'LT Museum';
     font-style: normal;
     font-weight: 400;
@@ -27,7 +27,7 @@ h3{
     line-height: 140%;
 }
 
-p{
+p {
     font-family: 'Basier Circle';
     font-style: normal;
     font-weight: 400;
@@ -36,7 +36,7 @@ p{
 }
 
 
-li{
+li {
     font-family: 'Basier Circle';
     font-style: normal;
     font-weight: 400;
@@ -45,7 +45,7 @@ li{
 }
 
 
-ul.space{
+ul.space {
     font-family: 'Basier Circle';
     font-style: normal;
     font-weight: 400;
@@ -53,7 +53,7 @@ ul.space{
     line-height: 140%;
 }
 
-p .deroul{
+p .deroul {
     font-family: 'Basier Circle';
     font-style: normal;
     font-weight: 400;
@@ -61,7 +61,23 @@ p .deroul{
     line-height: 140%;
 }
 
-p .info{
+p .derouler {
+    font-family: 'Basier Circle';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+}
+
+p .deroula {
+    font-family: 'Basier Circle';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+}
+
+p .info {
     font-family: 'Basier Circle';
     font-style: normal;
     font-weight: 400;
@@ -97,14 +113,14 @@ header .navbar ul {
     height: 100%;
 }
 
-.titre{
+.titre {
 
-padding-left: 16px;
-padding-bottom: 0;
-padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 0;
+    padding-right: 16px;
 }
 
-.navbar ul li{
+.navbar ul li {
     height: 100%;
 }
 
@@ -120,9 +136,10 @@ header .navbar li a {
     height: 100%;
 }
 
-header .navbar li a p{
+header .navbar li a p {
     height: 100%;
 }
+
 header .navbar li a:hover {
     background-color: #00243d;
     color: white;
@@ -133,8 +150,9 @@ header .navbar ul li:hover ul {
     display: block;
 }
 
-header .navbar li a:hover menu{
-    background-color: aquamarine;
+.deroula:hover .titre {
+    background-color: #00243D;
+    color: white;
 }
 
 header .navbar ul li:hover .titre {
@@ -143,19 +161,20 @@ header .navbar ul li:hover .titre {
     text-decoration: none;
 
 }
+.derouler{
+    padding: 10px;
+}
 /*fin menu barre*/
 
 
-
-header body {
-    background-color: rgb(75, 55, 55);
-}
 
 
 header #seaching {
     width: 182px;
     height: 27px;
 }
+
+header .searcha {}
 
 header .logo {
     height: 55px;
@@ -168,9 +187,14 @@ header .logo img {
 }
 
 header .menu {
-    height: 16px;
-    width: 28px;
+    height: 57px;
+    width: 55px;
 
+
+}
+
+header .menu img {
+    height: 100%;
 }
 
 header .p {
@@ -183,8 +207,9 @@ header .searcha:hover.p {
 
 
 header .searcha {
-    width: 25px;
-    padding-top: 15px ;
+    height: 57px;
+    width: 55px;
+    padding-top: 2px;
     padding-left: 10px;
     padding-right: 10px;
     /* opacity: 0; */
@@ -192,7 +217,7 @@ header .searcha {
 
 header .searcha img {
     width: 100%;
-    height: auto;
+    height: 95%;
 }
 
 /*interieur barre*/
@@ -450,7 +475,7 @@ header .navbar li ul :hover {
     border: 2px solid black;
     margin-top: 200px;
     height: 400px;
-    background-image: 
+    background-image:
         url("/image/pause/imageintmusée.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -606,21 +631,21 @@ footer .box-bas {
 
 }
 
-@media (max-width:1024px){
+@media (max-width:1024px) {
 
-    footer .box-menue{
+    footer .box-menue {
         display: block;
     }
 
-    footer .barre{
+    footer .barre {
         display: none;
     }
 
-    footer .reseau{
+    footer .reseau {
         width: 55px;
     }
 
-    footer .box-reseau{
+    footer .box-reseau {
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-end;

@@ -110,7 +110,7 @@ header .navbar li ul :hover {
     text-decoration: none;
 }
 
-
+/*fin code header*/
 .cover {
     background-image: url("image/musee_guimet.png");
     background-repeat: no-repeat;
@@ -264,7 +264,7 @@ header .navbar li ul :hover {
 }
 
 .collec #scroll_to_top {
-
+    z-index: 10;
     position: fixed;
     width: 25px;
     height: 25px;

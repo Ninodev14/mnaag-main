@@ -296,7 +296,7 @@ header .navbar li ul :hover {
 
 .agenda .square {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     flex-direction: row-reverse;
     align-items: stretch;
     margin-left: 19.7%;
@@ -349,8 +349,8 @@ header .navbar li ul :hover {
 
 .agenda .info-square {
     position: absolute;
-    width: 30%;
-    height: 10%;
+    width: 425px;
+    height: 151px;
     background-color: rgba(0, 0, 0, 0.75);
     color: white;
 }
@@ -363,8 +363,7 @@ header .navbar li ul :hover {
 
 .agenda .info-rect {
     position: absolute;
-    width: 20%;
-    height: 7%;
+    width: 324px;
     background-color: rgba(0, 0, 0, 0.75);
     color: white;
 }
@@ -480,6 +479,7 @@ header .navbar li ul :hover {
         url("/image/pause/imageintmusée.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 }
 
@@ -555,8 +555,8 @@ header .navbar li ul :hover {
 
 .event .info-square {
     position: absolute;
-    width: 30%;
-    height: 10%;
+    width: 425px;
+    height: 151px;
     background-color: rgba(0, 0, 0, 0.75);
     color: white;
 }
@@ -569,8 +569,7 @@ header .navbar li ul :hover {
 
 .event .info-rect {
     position: absolute;
-    width: 20%;
-    height: 7%;
+    width: 324px;
     background-color: rgba(0, 0, 0, 0.75);
     color: white;
 }

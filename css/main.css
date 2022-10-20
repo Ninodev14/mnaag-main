@@ -402,7 +402,7 @@ display: block;
     .agenda .info-square {
         position: sticky;
         margin-bottom: 10px;
-        padding-bottom: 20px;
+        padding-bottom: 15px;
         width: auto;
         background-color: rgba(0, 0, 0, 0.7);
     }  

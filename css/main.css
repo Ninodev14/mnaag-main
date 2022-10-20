@@ -431,6 +431,16 @@ position: relative;
     .agenda .info-square {
         position: sticky;
         margin-bottom: 10px;
+        padding-bottom: 15px;
+        width: auto;
+        background-color: rgba(0, 0, 0, 0.7);
+    }  
+    .agenda .info-rect {
+        position: sticky;
+        margin-bottom: 10px;
+        padding-bottom: 15px;
+        width: auto;
+        background-color: rgba(0, 0, 0, 0.7);
     }  
     .agenda .square {
         display: block;
@@ -444,8 +454,12 @@ position: relative;
     .agenda .bloc-rect {
         display: block;
     }
-    .agenda .info-square h3 {
+    .agenda .info-square h3, .agenda .info-rect h3 {
         font-size: 18pt;
+        padding-right: 10px;
+    }
+    .agenda .info-square p, .agenda .info-rect p {
+        font-size: 16pt;
     }
 }
 
@@ -733,4 +747,16 @@ footer .box-bas {
         display: none;
     }
 
+    .collec .splide__arrow--next {
+     display: none;
+
+    }
+    
+    .collec .splide__arrow--prev {
+     display: none;
+    }
+    .collec .splide__slide {
+        width: 300px;
+        height: 300px;
+    }
 }

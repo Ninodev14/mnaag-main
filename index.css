@@ -502,7 +502,7 @@ footer .box-reseau {
 
 footer .reseau {
     width: 40%;
-    height: 40%;
+    height: auto;
 }
 
 footer .box-bas {

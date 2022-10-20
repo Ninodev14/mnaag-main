@@ -690,4 +690,12 @@ footer .box-bas {
         align-items: flex-end;
     }
 
+    .cover .triangle{
+        display: none;
+    }
+
+    #scroll_to_top{
+        display: none;
+    }
+
 }

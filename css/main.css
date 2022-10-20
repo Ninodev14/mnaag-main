@@ -396,7 +396,13 @@ display: block;
     .agenda .info-square {
         position: sticky;
         margin-bottom: 10px;
-    }  
+        background-color: rgba(0, 0, 0, 0.7);
+    }   
+    .agenda .info-rect {
+        position: sticky;
+        margin-bottom: 10px;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
     .agenda .square {
         display: block;
     } 

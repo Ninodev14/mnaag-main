@@ -337,31 +337,6 @@ header .navbar li ul :hover {
 
 
 
-.collec .queen-maya {
-    /* background-image: url("image/collec/queen_maya.png") */
-}
-
-.collec .kozu-osaka {
-    background-image: url("image/collec/vue_kozu_osaka.png")
-}
-
-.collec .boudha-hand {
-    background-image: url("image/collec/boudha_hand.png");
-
-}
-
-.collec .boudha-head {
-    background-image: url("image/collec/boudha\ head.jpg");
-}
-
-.collec .corean-jarre {
-    background-image: url("image/collec/corean_jarre.jpg");
-}
-
-.collec .suzukake {
-    background-image: url("image/collec/suzukake.jpg");
-}
-
 .pause {
 
     border: 5px solid black;

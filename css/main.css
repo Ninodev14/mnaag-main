@@ -402,6 +402,12 @@ display: block;
     .agenda .info-square {
         position: sticky;
         margin-bottom: 10px;
+        background-color: rgba(0, 0, 0, 0.7);
+    }  
+    .agenda .info-rect {
+        position: sticky;
+        margin-bottom: 10px;
+        background-color: rgba(0, 0, 0, 0.7);
     }  
     .agenda .square {
         display: block;
@@ -415,8 +421,11 @@ display: block;
     .agenda .bloc-rect {
         display: block;
     }
-    .agenda .info-square h3 {
+    .agenda .info-square h3, .agenda .info-rect h3 {
         font-size: 18pt;
+    }
+    .agenda .info-square p, .agenda .info-rect p {
+        font-size: 16pt;
     }
 }
 

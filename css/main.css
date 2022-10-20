@@ -61,20 +61,14 @@ p .deroul{
     line-height: 140%;
 }
 
-p .info_flooter{
+p .info{
     font-family: 'Basier Circle';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 140%;
 }
-p .derouler{
-    font-family: 'Basier Circle';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 140%;
-}
+
 
 /*menu barre*/
 
@@ -103,21 +97,19 @@ header .navbar ul {
     height: 100%;
 }
 
-header .deroul{
+.titre{
 
 padding-left: 16px;
 padding-bottom: 0;
 padding-right: 16px;
-padding-top: 10px;
 }
 
 .navbar ul li{
     height: 100%;
 }
 
-.navbar .derouler img {
+.navbar img {
     height: 100%;
-    padding: 0;
 }
 
 header .navbar li a {
@@ -145,7 +137,12 @@ header .navbar li a:hover menu{
     background-color: aquamarine;
 }
 
+header .navbar ul li:hover .titre {
+    background-color: #00243d;
+    color: white;
+    text-decoration: none;
 
+}
 /*fin menu barre*/
 
 

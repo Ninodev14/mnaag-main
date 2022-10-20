@@ -2,27 +2,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
-header {
-    height: 57px;
-    width: 100%;
-    font-family: 'Basier Circle';
-    font-style: normal;
-    font-size: 18px;
-    color: black;
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-    position: sticky;
-    top: 0;
-    text-decoration: none;
-    list-style: none;
-    text-align: center;
-    z-index: 10;
-}
-
-
-
 /*typo*/
 h1{
     font-family: 'LT Museum';
@@ -85,18 +64,57 @@ p .deroul{
 
 /*menu barre*/
 
+header {
+    height: 57px;
+    width: 100%;
+    font-family: 'Basier Circle';
+    font-style: normal;
+    font-size: 18px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    z-index: 10;
+}
+
+
+
 header .navbar ul {
     display: flex;
+    height: 100%;
+}
+
+.titre{
+
+padding-left: 16px;
+padding-bottom: 0;
+padding-right: 16px;
+}
+
+.navbar ul li{
+    height: 100%;
+}
+
+.navbar img {
+    height: 100%;
 }
 
 header .navbar li a {
-    padding: 19px 16px;
     display: block;
     color: #000;
     background-color: white;
     text-decoration: none;
+    height: 100%;
 }
 
+header .navbar li a p{
+    height: 100%;
+}
 header .navbar li a:hover {
     background-color: #00243d;
     color: white;
@@ -107,7 +125,9 @@ header .navbar ul li:hover ul {
     display: block;
 }
 
-/*fin menu barre*/
+header .navbar li a:hover menu{
+    background-color: aquamarine;
+}
 
 header .navbar ul li:hover .titre {
     background-color: #00243d;
@@ -115,6 +135,9 @@ header .navbar ul li:hover .titre {
     text-decoration: none;
 
 }
+/*fin menu barre*/
+
+
 
 header body {
     background-color: rgb(75, 55, 55);

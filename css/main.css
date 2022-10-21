@@ -424,7 +424,7 @@ width:60px;
 }
 /* Fin code header tel */
 .cover {
-    background-image: url("../image/musee_guimet.png");
+    background-image: url("../image/jpg/musee_guimet.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -706,7 +706,7 @@ width:60px;
     margin-top: 200px;
     height: 400px;
     background-image:
-        url("/image/pause/imageintmusée.png");
+        url("/image/jpg/pause/imageintmusée.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;

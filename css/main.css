@@ -434,18 +434,13 @@ header .navbar2 li ul :hover {
 
 
 
-.no-webp .elementWithBackgroundImage .cover{
-    background-image: url("/image/jpg/musee_guimet.png");
-}
 
-.webp .elementWithBackgroundImage .cover{
-    background-image: url("/image/webP/musee_guimet.webp");
-}
 
 
 
 .cover {
 
+    background-image: url("/image/jpg/musee_guimet.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -504,8 +499,8 @@ header .navbar2 li ul :hover {
 
 .agenda .square {
     display: flex;
-    justify-content: flex-end;
-    flex-direction: row-reverse;
+    justify-content: flex-start;
+    flex-direction: row;
     align-items: stretch;
     margin-left: 19.7%;
     margin-right: 11.9%;
@@ -535,9 +530,10 @@ header .navbar2 li ul :hover {
 
 .agenda .bloc-square {
     display: flex;
-    align-items: flex-end;
     margin-right: 1.7%;
     overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .agenda .image-square:hover {
@@ -721,7 +717,7 @@ header .navbar2 li ul :hover {
 }
 
 
-.pause .no-webp .elementWithBackgroundImage {
+.pause {
     border: 2px solid black;
     margin-top: 200px;
     height: 400px;
@@ -733,6 +729,9 @@ header .navbar2 li ul :hover {
     background-size: cover;
 }
 
+.event {
+    background-color: #E0F3FF;
+}
 
 .event .triangle {
     height: 30vw;
@@ -749,8 +748,8 @@ header .navbar2 li ul :hover {
 
 .event .square {
     display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
     align-items: stretch;
     margin-left: 19.7%;
     margin-right: 11.9%;
@@ -780,9 +779,11 @@ header .navbar2 li ul :hover {
 
 .event .bloc-square {
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     margin-right: 1.7%;
     overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .event .image-square:hover {

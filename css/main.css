@@ -749,7 +749,7 @@ header .navbar2 li ul :hover {
 
 .event .square {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-direction: row;
     align-items: stretch;
     margin-left: 19.7%;

@@ -203,7 +203,7 @@ header .navbar2 ul li:hover ul {
     color: white;
 }
 
-header .navbar ul li:hover .titre .menu {
+header .navbar ul li:hover .titre {
     background-color: #00243d;
     color: white;
     text-decoration: none;
@@ -415,8 +415,6 @@ width:60px;
         flex-direction: column-reverse;
     }
 }
-
-
 /* Fin code header tel */
 .cover {
     background-image: url("../image/musee_guimet.png");
@@ -558,7 +556,7 @@ width:60px;
     .agenda .info-square {
         position: sticky;
         margin-bottom: 10px;
-        padding-bottom: 15px;
+        padding-bottom: 10px;
         width: auto;
         background-color: rgba(0, 0, 0, 0.7);
     }
@@ -570,7 +568,6 @@ width:60px;
         width: auto;
         background-color: rgba(0, 0, 0, 0.7);
     }
-
     .agenda .square {
         display: block;
     }
@@ -802,6 +799,44 @@ width:60px;
 .event .info-rect p {
     padding-top: 1%;
     padding-left: 1%;
+}
+
+@media (max-width: 1024px) {
+    .event .info-square {
+        position: sticky;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        width: auto;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .event .info-rect {
+        position: sticky;
+        margin-bottom: 10px;
+        padding-bottom: 15px;
+        width: auto;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+    .event .square {
+        display: block;
+    }
+    .event .rectangle {
+        display: block;
+    }
+    .event .bloc-square {
+        display: block;
+    }
+    .event .bloc-rect {
+        display: block;
+    }
+    .event .info-square h3,
+    .event .info-rect h3 {
+        font-size: 18pt;
+    }
+    .event .info-square p,
+    .event .info-rect p {
+        font-size: 16pt;
+    }
 }
 
 footer {

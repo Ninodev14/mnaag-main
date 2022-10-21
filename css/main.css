@@ -300,11 +300,11 @@ header .navbar2 li ul {
 }
 
 header .navbar li ul :last-child {
-    border: bottom 1px black;
+    /* border: bottom 1px black; */
 }
 
 header .navbar2 li ul :last-child {
-    border: bottom 1px black;
+    /* border: bottom 1px black; */
 }
 
 header .navbar li ul :hover {
@@ -351,14 +351,19 @@ header .navbar2 li ul :hover {
 
     header .logo {
         height: 75px;
-        width: 40px;
-        display: inline;
-        position: absolute;
+        width: 70px;
+        display: block;
+        position:absolute;
     left: 20px;
 top: 5px;
 
 
     }
+
+header .logo a{
+    width: 70px;
+    height:75px;
+}
 
     header .logo img {
         height: 75%;
@@ -366,10 +371,7 @@ top: 5px;
     }
 
     .navbar {
-        display: inline;
-        justify-content: center;
-        position: absolute;
-        top: 90px;
+        position: sticky;
     }
 
     header .navbar ul {
@@ -391,11 +393,7 @@ top: 5px;
     }
 
     .navbar2 {
-        display: inline;
-        justify-content: right;
-        position: absolute;
-        top: 5px;
-        right: 1px;
+        position: sticky;
     }
 
     header .navbar2 ul {

@@ -271,7 +271,7 @@ position: relative;
         display: inline;
         justify-content: center;
     
-    }
+}
     
     header .logo img {
         height: 50%;
@@ -748,12 +748,12 @@ footer .box-bas {
     }
 
     .collec .splide__arrow--next {
-     display: none;
+    display: none;
 
     }
     
     .collec .splide__arrow--prev {
-     display: none;
+    display: none;
     }
     .collec .splide__slide {
         width: 300px;

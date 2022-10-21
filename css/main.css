@@ -443,14 +443,16 @@ width:60px;
     font-family: 'LT Museum';
     font-style: normal;
     font-weight: 400;
-    font-size: 80px;
+    font-size: 76pt;
     line-height: 140%;
     margin-right: 4%;
-
-
 }
 
-
+@media (max-width: 1024px) {
+    .cover h1 {
+        font-size : 32pt;
+    }
+}
 
 .cover .triangle {
     height: 166px;

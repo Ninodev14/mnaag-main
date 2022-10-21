@@ -353,17 +353,17 @@ header .navbar2 li ul :hover {
         height: 75px;
         width: 70px;
         display: inline-block;
-        position:absolute;
-    left: 20px;
-top: 5px;
+        position: absolute;
+        left: 20px;
+        top: 5px;
 
 
     }
 
-header .logo a{
-    width: 70px;
-    height:75px;
-}
+    header .logo a {
+        width: 70px;
+        height: 75px;
+    }
 
     header .logo img {
         height: 75%;
@@ -400,31 +400,52 @@ header .logo a{
         height: 29%;
         justify-content: right;
     }
-    .navbar2 ul li{ height: 50px;
+
+    .navbar2 ul li {
+        height: 50px;
     }
-    header .reserver img{
+
+    header .reserver img {
         height: 100%;
     }
-    header .searcha img{
+
+    header .searcha img {
         height: 80%;
         width: 90%;
     }
+
     header .menu {
-height: 50px;
-width:60px;
+        height: 50px;
+        width: 60px;
     }
-    header .menu img{
+
+    header .menu img {
         height: 100%;
         width: 100%;
     }
-    header{
+
+    header {
         display: flex;
         flex-direction: column-reverse;
     }
 }
+
 /* Fin code header tel */
+
+
+
+.no-webp .elementWithBackgroundImage .cover{
+    background-image: url("/image/jpg/musee_guimet.png");
+}
+
+.webp .elementWithBackgroundImage .cover{
+    background-image: url("/image/webP/musee_guimet.webp");
+}
+
+
+
 .cover {
-    background-image: url("../image/jpg/musee_guimet.png");
+
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -448,7 +469,7 @@ width:60px;
 
 @media (max-width: 1024px) {
     .cover h1 {
-        font-size : 32pt;
+        font-size: 32pt;
     }
 }
 
@@ -577,6 +598,7 @@ width:60px;
         width: auto;
         background-color: rgba(0, 0, 0, 0.7);
     }
+
     .agenda .square {
         display: block;
     }
@@ -699,9 +721,7 @@ width:60px;
 }
 
 
-
-.pause {
-
+.pause .no-webp .elementWithBackgroundImage {
     border: 2px solid black;
     margin-top: 200px;
     height: 400px;
@@ -713,9 +733,6 @@ width:60px;
     background-size: cover;
 }
 
-.event {
-    background-color: #E0F3FF;
-}
 
 .event .triangle {
     height: 30vw;
@@ -826,22 +843,28 @@ width:60px;
         width: auto;
         background-color: rgba(0, 0, 0, 0.7);
     }
+
     .event .square {
         display: block;
     }
+
     .event .rectangle {
         display: block;
     }
+
     .event .bloc-square {
         display: block;
     }
+
     .event .bloc-rect {
         display: block;
     }
+
     .event .info-square h3,
     .event .info-rect h3 {
         font-size: 18pt;
     }
+
     .event .info-square p,
     .event .info-rect p {
         font-size: 16pt;
@@ -898,7 +921,8 @@ footer .box-bas {
     padding-bottom: 2%;
 
 }
-.space a img{
+
+.space a img {
     padding-bottom: 10px;
 }
 
@@ -943,7 +967,8 @@ footer .box-bas {
         width: 220px;
         height: 220px;
     }
-    .space a img{
+
+    .space a img {
         padding: 10px;
     }
 }

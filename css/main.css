@@ -352,7 +352,7 @@ header .navbar2 li ul :hover {
     header .logo {
         height: 75px;
         width: 70px;
-        display: block;
+        display: inline-block;
         position:absolute;
     left: 20px;
 top: 5px;

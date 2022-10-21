@@ -299,14 +299,14 @@ header .navbar2 li ul {
 
 }
 
-header .navbar li ul :last-child {
-    /* border: bottom 1px black; */
+/* header .navbar li ul :last-child { 
+    border: bottom 1px black;
 }
 
 header .navbar2 li ul :last-child {
-    /* border: bottom 1px black; */
+    border: bottom 1px black; 
 }
-
+*/
 header .navbar li ul :hover {
     background-color: #E0F3FF;
     color: black;
@@ -331,7 +331,7 @@ header .navbar2 li ul :hover {
     }
 
     .derouler {
-       
+
         padding: 0px;
 
     }
@@ -945,5 +945,5 @@ footer .box-bas {
     }
     .space a img{
         padding: 10px;
-    
+    }
 }
